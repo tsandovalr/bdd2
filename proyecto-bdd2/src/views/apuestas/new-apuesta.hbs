@@ -1,0 +1,34 @@
+<div class="col-md-8 mx-auto mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3>Nueva Apuesta <i class="fas fa-futbol"></i></h3>
+        </div>
+        <div class="card-body">
+            <form action="/apuestas/new-apuesta" method="POST">
+               <div class="form-group">
+                   <label for="title">id_apuesta</label>
+                    <input type="text" name="id_apuesta" class="form-control" placeholder="2342342" autofocus >
+               </div>
+                <div class="form-group">
+                    <label for="id_partido">id_partido</label>
+                   <input type="text" name="id_partido" class="form-control" placeholder="25575" autofocus>
+               </div>
+               <div class="form-group">
+                   <label for="monto">monto</label>
+                   <input type="text" name="monto_apuesta" class="form-control" placeholder="15752$" autofocus>
+               </div>
+                <div class="form-group">
+                    <label for="opcion">opcion</label>
+                   <input type="text" name="opcion" class="form-control" placeholder="3" autofocus>
+               </div>
+               <div class="form-group">
+                   <label for="usuario">usuario</label>
+                   <input type="text" name="usuario" placeholder="tom" class="form-control"></textarea>
+               </div>
+               <div class="form-group">
+                   <button class="btn btn-primary btn-block">Salvar Apuesta</button>
+               </div>
+            </form>
+        </div>
+    </div>
+</div>
